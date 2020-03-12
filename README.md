@@ -1,3 +1,11 @@
-# Strapi application
+# Yllari File Manager API :star:
 
-A quick description of your strapi application
+API del gestor de files implementada con Strapi
+
+### Requisitos
+
+```
+NodeJs
+MongoDb
+```
+
