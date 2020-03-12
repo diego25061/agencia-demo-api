@@ -1,0 +1,62 @@
+{
+  "kind": "collectionType",
+  "connection": "default",
+  "collectionName": "servicios",
+  "info": {
+    "name": "Servicio"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "nombre": {
+      "type": "string",
+      "required": true
+    },
+    "ciudad": {
+      "type": "string"
+    },
+    "fechaEjecucion": {
+      "type": "date",
+      "required": true
+    },
+    "fechaOut": {
+      "type": "date"
+    },
+    "nombrePasajero": {
+      "type": "string"
+    },
+    "CantPasajeros": {
+      "type": "integer",
+      "required": true
+    },
+    "proveedor": {
+      "model": "proveedor"
+    },
+    "horaInicio": {
+      "type": "time"
+    },
+    "horaFinal": {
+      "type": "time"
+    },
+    "descripcion": {
+      "type": "text"
+    },
+    "tren": {
+      "type": "string"
+    },
+    "alm": {
+      "type": "string"
+    },
+    "vuelo": {
+      "type": "string"
+    },
+    "vr": {
+      "type": "string"
+    },
+    "tc": {
+      "type": "string"
+    }
+  }
+}

@@ -10,7 +10,7 @@
     "timestamps": true
   },
   "attributes": {
-    "Nombre": {
+    "nombre": {
       "type": "string",
       "unique": true,
       "required": true

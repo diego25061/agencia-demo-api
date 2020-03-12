@@ -18,9 +18,13 @@
       "repeatable": false,
       "component": "datos.datos-contacto"
     },
-    "yfile": {
-      "via": "cliente",
-      "model": "yfile"
+    "clase": {
+      "type": "enumeration",
+      "enum": [
+        "directo",
+        "minorista",
+        "mayorista"
+      ]
     }
   }
 }

@@ -1,0 +1,46 @@
+{
+  "kind": "collectionType",
+  "connection": "default",
+  "collectionName": "proveedors",
+  "info": {
+    "name": "Proveedor"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "nombre": {
+      "type": "string",
+      "required": true
+    },
+    "correo": {
+      "type": "email",
+      "unique": false
+    },
+    "correo2": {
+      "type": "email"
+    },
+    "numero": {
+      "type": "string"
+    },
+    "numero2": {
+      "type": "string"
+    },
+    "ciudad": {
+      "type": "string"
+    },
+    "clase": {
+      "type": "enumeration",
+      "enum": [
+        "hotel",
+        "restaurante",
+        "transporte",
+        "guia",
+        "operador",
+        "empresa",
+        "persona"
+      ]
+    }
+  }
+}
