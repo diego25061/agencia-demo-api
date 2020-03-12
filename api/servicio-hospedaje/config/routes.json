@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/servicio-hospedajes",
+      "handler": "servicio-hospedaje.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/servicio-hospedajes/count",
+      "handler": "servicio-hospedaje.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/servicio-hospedajes/:id",
+      "handler": "servicio-hospedaje.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/servicio-hospedajes",
+      "handler": "servicio-hospedaje.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/servicio-hospedajes/:id",
+      "handler": "servicio-hospedaje.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/servicio-hospedajes/:id",
+      "handler": "servicio-hospedaje.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

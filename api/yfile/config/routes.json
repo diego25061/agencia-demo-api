@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/yfiles",
+      "handler": "yfile.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/yfiles/count",
+      "handler": "yfile.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/yfiles/:id",
+      "handler": "yfile.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/yfiles",
+      "handler": "yfile.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/yfiles/:id",
+      "handler": "yfile.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/yfiles/:id",
+      "handler": "yfile.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

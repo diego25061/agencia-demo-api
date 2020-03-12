@@ -1,0 +1,24 @@
+{
+  "kind": "collectionType",
+  "connection": "default",
+  "collectionName": "transportes",
+  "info": {
+    "name": "Transporte"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "nombre": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "datos": {
+      "type": "component",
+      "repeatable": false,
+      "component": "datos.datos-contacto-local"
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/sing",
+      "handler": "sing.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/sing",
+      "handler": "sing.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/sing",
+      "handler": "sing.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "connection": "default",
+  "collectionName": "operadors",
+  "info": {
+    "name": "operador"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "nombre": {
+      "type": "string",
+      "private": false,
+      "required": true,
+      "unique": true
+    },
+    "datos": {
+      "type": "component",
+      "repeatable": false,
+      "component": "datos.datos-contacto-local"
+    }
+  }
+}

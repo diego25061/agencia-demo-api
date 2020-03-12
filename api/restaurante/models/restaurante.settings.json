@@ -1,0 +1,22 @@
+{
+  "kind": "collectionType",
+  "connection": "default",
+  "collectionName": "restaurantes",
+  "info": {
+    "name": "Restaurante"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "nombre": {
+      "type": "string"
+    },
+    "datos": {
+      "type": "component",
+      "repeatable": false,
+      "component": "datos.datos-contacto-local"
+    }
+  }
+}

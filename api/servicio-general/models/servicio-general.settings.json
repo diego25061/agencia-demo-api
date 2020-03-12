@@ -1,0 +1,23 @@
+{
+  "kind": "collectionType",
+  "connection": "default",
+  "collectionName": "servicio_generals",
+  "info": {
+    "name": "ServicioGeneral"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "nombre": {
+      "type": "string",
+      "required": true
+    },
+    "datos": {
+      "type": "component",
+      "repeatable": false,
+      "component": "datos.datos-servicio"
+    }
+  }
+}

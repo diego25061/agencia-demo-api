@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/operador-mayoristas",
+      "handler": "operador-mayorista.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/operador-mayoristas/count",
+      "handler": "operador-mayorista.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/operador-mayoristas/:id",
+      "handler": "operador-mayorista.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/operador-mayoristas",
+      "handler": "operador-mayorista.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/operador-mayoristas/:id",
+      "handler": "operador-mayorista.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/operador-mayoristas/:id",
+      "handler": "operador-mayorista.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

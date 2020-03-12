@@ -1,0 +1,26 @@
+{
+  "connection": "default",
+  "collectionName": "components_datos_datos_contacto_locals",
+  "info": {
+    "name": "DatosContactoLocal",
+    "icon": "phone-alt"
+  },
+  "options": {},
+  "attributes": {
+    "correo": {
+      "type": "string"
+    },
+    "correo2": {
+      "type": "string"
+    },
+    "numero": {
+      "type": "string"
+    },
+    "numero2": {
+      "type": "string"
+    },
+    "ciudad": {
+      "type": "string"
+    }
+  }
+}

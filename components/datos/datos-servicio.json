@@ -1,0 +1,20 @@
+{
+  "connection": "default",
+  "collectionName": "components_datos_datos_servicios",
+  "info": {
+    "name": "DatosServicio",
+    "icon": "car-side"
+  },
+  "options": {},
+  "attributes": {
+    "nombrePasajero": {
+      "type": "string"
+    },
+    "cantPasajeros": {
+      "type": "integer"
+    },
+    "descripcion": {
+      "type": "richtext"
+    }
+  }
+}

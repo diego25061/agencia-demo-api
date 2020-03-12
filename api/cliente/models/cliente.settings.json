@@ -1,0 +1,26 @@
+{
+  "kind": "collectionType",
+  "connection": "default",
+  "collectionName": "clientes",
+  "info": {
+    "name": "Cliente"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "nombre": {
+      "type": "string"
+    },
+    "datos": {
+      "type": "component",
+      "repeatable": false,
+      "component": "datos.datos-contacto"
+    },
+    "yfile": {
+      "via": "cliente",
+      "model": "yfile"
+    }
+  }
+}

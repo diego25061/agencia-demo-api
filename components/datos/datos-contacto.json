@@ -1,0 +1,29 @@
+{
+  "connection": "default",
+  "collectionName": "components_datos_datos_contactos",
+  "info": {
+    "name": "datos-contacto",
+    "icon": "phone"
+  },
+  "options": {},
+  "attributes": {
+    "correo": {
+      "type": "string"
+    },
+    "correo2": {
+      "type": "string"
+    },
+    "numero": {
+      "type": "string"
+    },
+    "numero2": {
+      "type": "string"
+    },
+    "ciudad": {
+      "type": "string"
+    },
+    "pais": {
+      "type": "string"
+    }
+  }
+}

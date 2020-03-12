@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/operador-minoristas",
+      "handler": "operador-minorista.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/operador-minoristas/count",
+      "handler": "operador-minorista.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/operador-minoristas/:id",
+      "handler": "operador-minorista.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/operador-minoristas",
+      "handler": "operador-minorista.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/operador-minoristas/:id",
+      "handler": "operador-minorista.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/operador-minoristas/:id",
+      "handler": "operador-minorista.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
