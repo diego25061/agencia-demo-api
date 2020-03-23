@@ -27,7 +27,7 @@
     "nombrePasajero": {
       "type": "string"
     },
-    "CantPasajeros": {
+    "cantPasajeros": {
       "type": "integer",
       "required": true
     },
@@ -57,6 +57,19 @@
     },
     "tc": {
       "type": "string"
+    },
+    "clase": {
+      "type": "enumeration",
+      "enum": [
+        "general",
+        "transporte",
+        "hospedaje"
+      ],
+      "required": true
+    },
+    "yfile": {
+      "via": "servicios",
+      "model": "yfile"
     }
   }
 }

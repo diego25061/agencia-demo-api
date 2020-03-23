@@ -18,26 +18,15 @@
     "descripcion": {
       "type": "richtext"
     },
-    "servicio_generals": {
-      "collection": "servicio-general"
-    },
     "biblia": {
       "model": "biblia"
     },
     "cliente": {
       "model": "cliente"
     },
-    "operador_mayorista": {
-      "model": "operador-mayorista"
-    },
-    "operador_minorista": {
-      "model": "operador-minorista"
-    },
-    "servicio_hospedajes": {
-      "collection": "servicio-hospedaje"
-    },
-    "servicio_transportes": {
-      "collection": "servicio-transporte"
+    "servicios": {
+      "collection": "servicio",
+      "via": "yfile"
     }
   }
 }

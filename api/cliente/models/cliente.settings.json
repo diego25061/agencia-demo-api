@@ -11,7 +11,8 @@
   },
   "attributes": {
     "nombre": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "datos": {
       "type": "component",

@@ -1,0 +1,1 @@
+{"options":{},"indexes":[{"v":2,"key":{"_id":1},"name":"_id_","ns":"fm-api.operador_minoristas"},{"v":2,"unique":true,"key":{"Nombre":1},"name":"Nombre_1","ns":"fm-api.operador_minoristas","background":true},{"v":2,"unique":true,"key":{"nombre":1},"name":"nombre_1","ns":"fm-api.operador_minoristas","background":true}],"uuid":"3f0eae4906134312aefa786bb73def37"}

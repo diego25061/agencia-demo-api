@@ -1,0 +1,1 @@
+{"options":{},"indexes":[{"v":2,"key":{"_id":1},"name":"_id_","ns":"fm-api.hotels"},{"v":2,"unique":true,"key":{"nombre":1},"name":"nombre_1","background":true,"ns":"fm-api.hotels"}],"uuid":"c56d3c3233c54152959ede38445583bf"}
