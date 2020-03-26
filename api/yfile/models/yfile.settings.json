@@ -18,15 +18,19 @@
     "descripcion": {
       "type": "richtext"
     },
-    "biblia": {
-      "model": "biblia"
-    },
     "cliente": {
       "model": "cliente"
     },
     "servicios": {
       "collection": "servicio",
       "via": "yfile"
+    },
+    "mes": {
+      "type": "integer",
+      "required": false
+    },
+    "anho": {
+      "type": "integer"
     }
   }
 }

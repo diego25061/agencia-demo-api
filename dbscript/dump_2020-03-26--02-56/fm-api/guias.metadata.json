@@ -1,0 +1,1 @@
+{"options":{},"indexes":[{"v":2,"key":{"_id":1},"name":"_id_","ns":"fm-api.guias"},{"v":2,"unique":true,"key":{"nombre":1},"name":"nombre_1","ns":"fm-api.guias","background":true}],"uuid":"90d0c6c42d324a7084d885ebf4828cec"}
